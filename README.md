@@ -17,7 +17,7 @@ Since this project's target audiences are non-technical users, I built this tool
 The users could use this tool as a calculator:
     - simply input the required features of the listed property on RoofStock.com
     - the tool will give feedback and tell the expected waiting time at different confidence level
-    
+
 ## Data & Model
 - Data:
     - Provided by RoofStock.com
@@ -26,7 +26,7 @@ The users could use this tool as a calculator:
     - Survival Regression
     - Trained model files could be found and downloaded at [here](/model_files)
     - The main package and instructions we used are from [Lifelines](https://github.com/CamDavidsonPilon/lifelines/blob/master/docs/index.rst)
- 
+
 ## Usage
 - Pre-required Packages
     - pickle
@@ -49,10 +49,12 @@ python main.py
     - total return (calculated and provided by roofstock.com platform)
     - est repair cost
     - acceptable waiting time (users could try different days)
-    
-- output example: 
+
+---    
+- output example:
     ![demo](doc/Roofstock_project_GUI_demo.png)
-    
+---
+  
 - Notes:
     - Result - Good Offer %: An offer from buyer to a sell, if the (offer price quote) >= x% * (List Price),
     it will be considered as a good offer
@@ -61,7 +63,7 @@ python main.py
     - Result - Expected Waiting Time : model predicted (total) waiting time
 
 ## Contributing
-Thanks for my teammates: 
+Thanks for my teammates:
 - [Xukun LIU](https://www.linkedin.com/in/xukunliu1994/)
 - [Jing LIU](https://www.linkedin.com/in/jing-liu1014/)
 - [Jing WANG](https://www.linkedin.com/in/jing-wang-943b03171/)
